@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
-  color: #4A4A4A;
+  color: #4a4a4a;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,7 +29,7 @@ main {
 
 header {
   width: 90%;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ NAVIGATION
 }
 
 nav {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   display: flex;
   justify-content: space-between;
   border-top: 3px solid red;
@@ -70,27 +70,29 @@ nav img {
 }
 
 nav li {
-  padding: 5px 5px;
+  padding: 5px;
 }
 
 nav li a {
   text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 nav li a:visited {
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
-nav li a:hover, nav li a:active {
+nav li a:hover,
+nav li a:active {
   color: red;
 }
 
 /***********************
 HEADING
 ***********************/
-h1, h2 {
+h1,
+h2 {
   font-family: 'Roboto', sans-serif;
   display: block;
   margin: 0 auto;
@@ -99,8 +101,8 @@ h1, h2 {
 
 h1 {
   font-weight: 700;
-  font-size: 2.10em;
-  margin: 50px auto 10px auto;
+  font-size: 2.1em;
+  margin: 50px auto 10px;
 }
 
 h2 {
@@ -164,10 +166,11 @@ footer {
 }
 
 footer a:visited {
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
-footer a:hover, footer li a:active {
+footer a:hover,
+footer li a:active {
   color: red;
 }
 
