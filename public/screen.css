@@ -119,106 +119,81 @@ section div {
 GALLERY
 ***********************/
 
+section li {
+  margin: 0;
+}
+
 section.gallery {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 800px;
   height: 500px;
+  margin: 20px;
 }
 
 section.gallery .left {
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
   flex-direction: row;
-  min-width: 55%;
-  height: 234px;
-  padding-left: 0;
-  margin: 10px 0 0 10px;
+  width: 600px;
+  height: 250px;
+  margin: 5px;
+  padding: 0;
   overflow: hidden;
 }
 
 section.gallery .right {
   display: flex;
   flex-direction: column;
-  min-width: 45%;
-  height: 480px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
   padding-left: 0;
-  margin: 10px;
-  overflow: hidden;
-}
-
-.img1 {
-  flex: 1;
-  padding-right: 10px;
-}
-
-.img2 {
-  flex: 2;
-}
-
-.img3 {
-  flex: 3;
-}
-
-.top {
-  padding-right: 0;
-  padding-bottom: 8px;
-}
-
-section.gallery img {
-  max-width: 100%;
-}
-
-section.gallery li {
-  max-width: 100%;
   margin: 0;
+}
+
+.bl-spacing {
+  padding-right: 5px;
+}
+
+.tr-spacing {
+  padding-bottom: 4px;
 }
 
 /***********************
 FOOTER
 ***********************/
 footer {
-  width: 80%;
-  margin: 0 auto;
-}
-
-footer a:visited {
-  color: #4a4a4a;
-}
-
-footer a:hover,
-footer li a:active {
-  color: red;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  max-width: 800px;
+  height: 200px;
 }
 
 footer div {
-  height: 20%;
-  display: inline-block;
-  padding: 0 2px;
-  margin-right: 10px;
+  padding: 0 10px 0 0;
+  text-align: left;
+  flex: 1;
 }
 
-#whats-new {
-  width: 20%;
-  float: left;
-  margin-right: 10px;
-}
-
-#whats-new h3 {
+footer h3 {
   color: red;
+  margin: 0;
 }
 
-.layouts1 {
-  width: 25%;
-  float: left;
+span {
+  color: #4a4a4a;
 }
 
-.layouts2 {
-  width: 25%;
-  float: left;
+footer a:link,
+a:visited {
+  color: #4a4a4a;
 }
 
-.layouts3 {
-  width: 20%;
-  float: left;
+footer a:focus,
+a:hover,
+a:active {
+  color: red;
 }
